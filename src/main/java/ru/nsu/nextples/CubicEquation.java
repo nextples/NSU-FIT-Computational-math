@@ -45,7 +45,7 @@ public class CubicEquation {
                 roots.add(border1);
                 return 1;
             }
-            else if (abs(f0) < -epsilon) {
+            else if (f0 < -epsilon) {
                 double border2 = findBorder(0, Direction.RIGHT);
                 roots.add(dichotomyMethod(border1, border2));
                 return 1;

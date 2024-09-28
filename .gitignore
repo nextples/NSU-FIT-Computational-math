@@ -1,5 +1,6 @@
 out/
 .idea/
+src/main/resources/META-INF
 
 target/
 !.mvn/wrapper/maven-wrapper.jar

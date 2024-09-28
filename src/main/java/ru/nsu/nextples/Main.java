@@ -61,7 +61,7 @@ public class Main {
 
         CubicEquation equation = new CubicEquation(a, b, c, delta, epsilon);
         equation.solve();
-        writeAnswer("../../output/output.txt", equation);
+        writeAnswer("./output/output.txt", equation);
         System.out.println("Roots: " + equation.getRoots());
     }
 
